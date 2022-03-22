@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32126.317
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorWasmAuthenticationAndAuthorization.Server", "Server\BlazorWasmAuthenticationAndAuthorization.Server.csproj", "{4A477323-4071-4BED-82EF-41E0A2E25B73}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorWasmAuthenticationAndAuthorization.Client", "Client\BlazorWasmAuthenticationAndAuthorization.Client.csproj", "{3F394CDC-3B84-4528-B9A4-FF6798256428}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorWasmAuthenticationAndAuthorization.Shared", "Shared\BlazorWasmAuthenticationAndAuthorization.Shared.csproj", "{A27A9835-F8A9-4BDD-BF45-F43F804109F8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4A477323-4071-4BED-82EF-41E0A2E25B73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A477323-4071-4BED-82EF-41E0A2E25B73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A477323-4071-4BED-82EF-41E0A2E25B73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A477323-4071-4BED-82EF-41E0A2E25B73}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F394CDC-3B84-4528-B9A4-FF6798256428}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F394CDC-3B84-4528-B9A4-FF6798256428}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F394CDC-3B84-4528-B9A4-FF6798256428}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F394CDC-3B84-4528-B9A4-FF6798256428}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A27A9835-F8A9-4BDD-BF45-F43F804109F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A27A9835-F8A9-4BDD-BF45-F43F804109F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A27A9835-F8A9-4BDD-BF45-F43F804109F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A27A9835-F8A9-4BDD-BF45-F43F804109F8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BD5893EA-51B8-4EB1-A231-28E2DF816A77}
+	EndGlobalSection
+EndGlobal
